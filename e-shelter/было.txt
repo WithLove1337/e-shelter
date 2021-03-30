@@ -1,0 +1,74 @@
+html
+<div class="main_block">
+    <p>&nbsp;&nbsp;&nbsp;Заполни анкету, чтобы стать волонтёром:</p>
+    <div class = "form_block">
+        <div class = "text_block">
+            <p>Имя:</p>
+        </div>
+        <input class = "input_block">
+    </div>
+    <div class = "littleSpacer"></div>
+    <div class = "form_block">
+        <div class = "text_block">
+            <p>Фамилия:</p>
+        </div>
+        <input class = "input_block">
+    </div>
+    <div class = "littleSpacer"></div>
+    <div class = "form_block">
+        <div class = "text_block">
+            <p>Телефон:</p>
+        </div>
+    </div>
+    <div class = "littleSpacer"></div>
+    <div class = "form_block">
+        <div class = "text_block">
+            <p>Социальные сети:</p>
+        </div>
+        <input class = "input_block">
+    </div>
+</div>
+-----------------------------
+css
+.main_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.main_block p{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FF5F40;
+}
+.form_block {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.text_block {
+    width: 305px;
+    height: 33px;
+}
+.text_block p {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    color: #000000;
+}
+.input_block {
+    width: 800px;
+    height: 30px;
+    border: #FFFFFF;
+    background: #C4C4C4;
+}
+.littleSpacer {
+    height: 10px;
+}
